@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/course"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:background="@drawable/tablerow_courses" />
+
+    <TextView
+        android:id="@+id/CH"
+        android:layout_weight="0.1"
+        android:background="@drawable/tablerow"/>
+
+    <TextView
+        android:id="@+id/CR"
+        android:layout_weight="0.1"
+        android:background="@drawable/tablerow"/>
+
+    <TextView
+        android:id="@+id/Grade"
+        android:layout_weight="0.1"
+        android:background="@drawable/tablerow"/>
+
+</TableRow>
